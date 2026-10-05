@@ -13,7 +13,6 @@ An exploratory, independent data analysis investigating the historical associati
 <img width="5129" height="4465" alt="life expect vs gdp scatter" src="https://github.com/user-attachments/assets/6a2a2242-0c37-4e1f-99c2-689fc8d1c771" />
 *Figure 2. The relationship between economic output and longevity.*
 
-
 ##Data Stack and Methodology
 **Language:** Python
 **Libraries:** Pandas (data manipulation), Seaborn, Matplotlib.pyplot (advanced data visualization), Scipy.stats (Pearson Correlation)

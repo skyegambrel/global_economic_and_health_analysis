@@ -1,5 +1,7 @@
 # life_expenctancy_and_gdp
 
+In this project, I analyzed data on GDP and life expectancy from the World Health Organization and the World Bank to try and identify the relationship between the GDP and life expectancy of six countries.
+
 Has life expectancy increased over time in the six nations? -> yes, shown in graph under line 99
 
 Has GDP increased over time in the six nations? -> yes, shown in graph under line 98

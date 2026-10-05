@@ -1,13 +1,25 @@
-# life_expenctancy_and_gdp
+#Global Health and Economics Association Analysis (2000-2015)
+An exploratory, independent data analysis investigating the historical association between Gross Domestic Product (GDP) and Life Expectancy at Birth across six different nations.
 
-In this project, I analyzed data on GDP and life expectancy from the World Health Organization and the World Bank to try and identify the relationship between the GDP and life expectancy of six countries.
+##Key Insights
+1. **The Wealth Plateau:** While a positive association exists universally across the dataset, the *rate* of life expectancy growth slows or stabilizes after a certain country has reached a critical GDP threshold.
+2. **The Outlier Case:** Zimbabwe exhibited a drop and subsequent 10(+?) year recovery in life expectancy, while their GDP didn't change significantly at all. This proves that while there is a positive association between GDP and life expectancy, that GDP isn't the only factor influencing it.
+3. **The Dual Linear Surge:** China and the USA both displayed near perfect linear growth in GDP and life expectancy over the 15-year window. This opens up a new question of whether this was due simply to new opportunities, or because of the rival nations trying to out-do each other.
 
-Has life expectancy increased over time in the six nations? -> yes, shown in graph under line 99
+##Visualization Showcase 
+<img width="1686" height="1357" alt="life_expect_over_time" src="https://github.com/user-attachments/assets/46301b01-f1a5-4525-8ec1-ce74a589df6e" />
+*Figure 1. Comparative time-based analysis showing diverse national health trajectories.*
 
-Has GDP increased over time in the six nations? -> yes, shown in graph under line 98
+<img width="5129" height="4465" alt="life expect vs gdp scatter" src="https://github.com/user-attachments/assets/6a2a2242-0c37-4e1f-99c2-689fc8d1c771" />
+*Figure 2. The relationship between economic output and longevity.*
 
-Is there a correlation between GDP and life expectancy of a country? -> yes, shown in graphs and pearson correlation calculation from line 134 and line 154
+##Data Stack and Methodology
+**Language:** Python
+**Libraries:** Pandas (data manipulation), Seaborn, Matplotlib.pyplot (advanced data visualization), Scipy.stats (Pearson Correlation)
+**Dataset:** Sourced from the World Health Organization (WHO) and the World Bank. Contains 96 observations spanning 6 countries (Chile, China, Germany, Mexico, USA, Zimbabwe) across 16 years.
 
-What is the average life expectancy in these nations? -> shown in average stats per country under line 35: for china it is 78.94 years, for chile it is 74.26 years, for germany it is 79.65 years, for mexico it is 75.71 years, for the united states of america it is 78.06 years, and for zimbabwe it is 50.09 years
-
-What is the distribution of that life expectancy? -> shown in bar graph under line 24, life expectancy is left-skewed, with higher life expectancy's having higher frequencies of appearing
+##Questions Addressed
+1. Has life expectancy increased over time in the six nations?
+2. Has GDP increased over time in the six nations?
+3. Is there a correlation between GDP and life expectancy of a country?
+4. What is the average life expectancy in these nations, and what is the distribution?

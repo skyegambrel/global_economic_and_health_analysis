@@ -7,10 +7,10 @@ An exploratory, independent data analysis investigating the historical associati
 3. **The Dual Linear Surge:** China and the USA both displayed near perfect linear growth in GDP and life expectancy over the 15-year window. This opens up a new question of whether this was due simply to new opportunities, or because of the rival nations trying to out-do each other.
 
 ##Visualization Showcase 
-<img width="1686" height="1357" alt="life_expect_over_time" src="https://github.com/user-attachments/assets/46301b01-f1a5-4525-8ec1-ce74a589df6e" />
+![National Health Trajectories](life_expect_over_time.png)
 *Figure 1. Comparative time-based analysis showing diverse national health trajectories.*
 
-<img width="5129" height="4465" alt="life expect vs gdp scatter" src="https://github.com/user-attachments/assets/6a2a2242-0c37-4e1f-99c2-689fc8d1c771" />
+![Economic Output vs Longevity](life_expect_vs_gdp_scatter.png)
 *Figure 2. The relationship between economic output and longevity.*
 
 ##Data Stack and Methodology

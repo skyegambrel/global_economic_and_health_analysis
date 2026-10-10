@@ -9,7 +9,7 @@ An exploratory, independent data analysis investigating the historical associati
 ![National Health Trajectories](life_expect_over_time.png)
 *Figure 1. Comparative time-based analysis showing diverse national health trajectories.*
 
-![Economic Output vs Longevity](life_expect_vs_gdp_scatter.png)
+![GDP versus Life Expectancy per Country](life_expect_vs_gdp_scatter.png)
 *Figure 2. The relationship between economic output and longevity.*
 
 ##Data Stack and Methodology
